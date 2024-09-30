@@ -1,0 +1,119 @@
+:root{
+  --text-headline: #E1624F;
+  --text-primary: #1B1B1B;
+  --text-secondary: #333333;
+  --accent-blue: #0C51A7;
+  --accent-purple: #591B98;
+  --accent-pink: #E5245E;
+  --accent-orange: #E95E10;
+  --border-primary: #D9D9D9;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+
+main{
+  margin: 88px 80px;
+}
+.highlight-p{
+  color: var(--text-headline);
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+img{
+  border-radius: 28px;
+  width: 100%;
+}
+
+h1{
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+#about{
+  margin-bottom: 44px;
+}
+
+#destinations{
+  border-top: 1px solid var(--border-primary);  
+  padding: 64px 0;
+}
+
+#beomeo-sa, #yongdusan{
+  margin-top: 48px;
+}
+
+#yongdusan{
+  margin-bottom: 40px;
+}
+
+#ending{
+  border-top: 1px solid var(--border-primary);
+  padding-top: 40px;
+}
+
+.places{
+  margin-top: 20px;
+}
+
+p{
+  margin-bottom: 30px;
+}
+
+h1,h2{
+  color: var(--text-primary);
+}
+
+h2{
+  font-size: 32px;
+  margin: 8px 0;
+}
+
+
+em, p, strong{
+  color: var(--text-secondary);
+}
+
+em, #ending{
+  display: block;
+  text-align: center;
+}
+
+ li{
+  font-weight: 800;
+  margin-left: 18px;
+}
+
+li::marker{
+  color: var(--text-secondary);
+}
+
+.history{
+  color: var(--accent-blue);
+}
+
+#couple{
+  color: var(--accent-purple);
+}
+
+#families{
+  color: var(--accent-pink);
+}
+
+#budget{
+  color: var(--accent-orange);
+}
+
+footer{
+  box-sizing: border-box;
+  max-width: 220px;
+  align-items: center;
+  margin: 48px auto;
+}
